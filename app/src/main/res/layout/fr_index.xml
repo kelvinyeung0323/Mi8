@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mi8BlueWeight"
+    android:overScrollMode="always">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/mi8YellowLight"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="指数"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_corner_box"
+                android:orientation="vertical"
+                android:padding="10dp"
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="上证指数"
+                            android:textColor="@color/mi8YellowLight"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:id="@+id/stkIndexActiveView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="00.00"
+                            android:textColor="@color/mi8pinkDark"
+                            android:textSize="40dp" />
+
+                        <TextView
+                            android:id="@+id/stkIndexUpDown"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+20%/"
+                            android:textColor="@color/mi8pinkDark"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:orientation="vertical"
+
+                        >
+
+                        <TextView
+                            android:id="@+id/stkIndexHourLine"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/btn_yellow_small"
+                            android:padding="5dp"
+                            android:text="时线"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/stkIndexDayLine"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/btn_yellow_small"
+                            android:padding="5dp"
+                            android:text="日线"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10:00-10:05 34.5%看涨 64.5%看跌"
+                        android:textColor="@color/mi8BlueBright" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10:00-10:05 34.5%看涨 64.5%看跌"
+                        android:textColor="@color/mi8BlueBright" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/stkIndexOrderDown"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_green_small"
+                        android:text="看跌"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/stkIndexOrderUp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_pink_small"
+
+                        android:text="看跌"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <!--比特币-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/shape_corner_box"
+                android:orientation="vertical"
+                android:padding="10dp"
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="比特币指数"
+                            android:textColor="@color/mi8YellowLight"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:id="@+id/btcIndexActiveView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="00.00"
+                            android:textColor="@color/mi8pinkDark"
+                            android:textSize="40dp" />
+
+                        <TextView
+                            android:id="@+id/btcIndexUpDown"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+20%/"
+                            android:textColor="@color/mi8pinkDark"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:orientation="vertical"
+
+                        >
+
+                        <TextView
+                            android:id="@+id/btcIndexHourLine"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/btn_yellow_small"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:text="时线" />
+
+                        <TextView
+                            android:id="@+id/btcIndexDayLine"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/btn_yellow_small"
+                            android:padding="5dp"
+                            android:textAlignment="center"
+                            android:text="日线" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10:00-10:05 34.5%看涨 64.5%看跌"
+                        android:textColor="@color/mi8BlueBright" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10:00-10:05 34.5%看涨 64.5%看跌"
+                        android:textColor="@color/mi8BlueBright" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/btcIndexOrderDown"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_green_small"
+                        android:text="看跌"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/btcIndexOrderUp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_pink_small"
+
+                        android:text="看跌"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mi8pro</string>
+
+
+    <string name="txt_register">注册</string>
+    <string name="txt_login">登录</string>
+    <string name="txt_member_name">会员姓名：</string>
+    <string name="txt_padssword">会员密码：</string>
+
+    <string name="arrow_left">&#060;&#060;</string>
+    <string name="arrow_right">&#062;&#062;</string>
+
+</resources>

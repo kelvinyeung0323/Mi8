@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mi8BlueWeight">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/mi8BlueLight"
+        >
+        <LinearLayout
+            android:id="@+id/accBalanceBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/mi8YellowLight"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/accBalanceBtnText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="余额"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/accRechargeBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/accRechargeBtnText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="充值"
+                android:textColor="@android:color/white"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/accEnchashmentBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/accEnchashmentBtnText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="取现"
+                android:textColor="@android:color/white"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/accContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mi8BlueBright">#359ffb</color>
+    <color name="mi8BlueLight">#062d43</color>
+    <color name="mi8BlueWeight">#021c26</color>
+    <color name="mi8YellowLight">#fec60a</color>
+    <color name="mi8GreenLight">#14ca8a</color>
+    <color name="mi8GreenDark">#129365</color>
+    <color name="mi8pinkDark">#ef2d58</color>
+    <color name="mi8White">#ffffff</color>
+</resources>

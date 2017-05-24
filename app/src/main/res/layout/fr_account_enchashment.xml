@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mi8BlueWeight"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="我要马上取现"
+            android:textAlignment="center"
+            android:background="@drawable/btn_yellow_small"/>
+    </LinearLayout>
+
+    <!--委托订单-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/arrow_left"
+                android:textSize="25dp"
+                android:textColor="@color/mi8YellowLight"
+                android:background="@android:color/transparent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="30dp"
+                android:paddingLeft="30dp"
+                android:gravity="center"
+                android:text="取现记录"
+                android:textColor="@android:color/holo_blue_light"
+                android:background="@drawable/under_white_line"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/arrow_right"
+                android:textSize="25dp"
+                android:textColor="@color/mi8YellowLight"
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/shape_corner_box_small"
+            >
+        </ListView>
+    </LinearLayout>
+
+
+</LinearLayout>
